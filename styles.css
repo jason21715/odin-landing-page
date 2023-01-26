@@ -14,6 +14,7 @@ html, body {
     flex-direction: column;
     background-color: #1F2937;
     color: white;
+    height: 50%;
 }
 
 a {
@@ -24,8 +25,9 @@ a {
 nav {
     display: flex;
     padding: 25px; 
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    gap: 425px;
 }
 
 nav .header {
@@ -57,6 +59,7 @@ nav ul li{
 .sub-text p {
     margin-top: 5px ;
     margin-bottom: 15px;
+    font-size: 18px;
 }
 
 .sub-text button {
@@ -66,5 +69,32 @@ nav ul li{
     border: none;
     border-radius: 8px;
     margin: 15px 0px 15px 0px;
-    padding: 8px 15px;
+    padding: 8px 25px;
+}
+
+.content {
+    height: 50%;
+}
+
+.content-containers {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.content-containers div {
+    border: 5px solid cyan;
+    border-radius: 20px;
+    padding: 8px;
+    text-align: center;
+    flex: 0 0 15%;
+}
+
+.content h3{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    font-size: 24px;
 }
